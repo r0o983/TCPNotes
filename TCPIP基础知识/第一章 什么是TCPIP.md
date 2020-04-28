@@ -168,7 +168,7 @@ TCP/IP的几个重要特性，例如：**逻辑编址**、**名称解析**、**�
 
 ### 1.7.2 练习
 
-1.访问www.rfc-editor.otg 并查看几个RFC  
+1.访问www.rfc-editor.org并查看几个RFC  
 
 2.通过datatracker.ietf.org/wg/ 网站来访问IETF，并查看几个活跃的工作组  
 
