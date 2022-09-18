@@ -6,7 +6,7 @@
 
 **防火墙可以阻止任何或者所有的流量进入本地网络** 
 
-![image-20200509171912012](../assets/image-20200509171912012.png)
+![image-20200509171912012](https://raw.githubusercontent.com/christopher-x/images/main/image-20200509171912012.png)
 
 早期的防火墙是数据包过滤器，它通过检查数据包来找出该数据包的企图，第六章讲过，许多包过滤防火墙会查看封装在传输层报头中的TCP和UDP端口号，因为大多数的Internet服务都与端口号相关联，因此通过检查数据包的目的端口号可以确定数据包的企图，这种形式的数据包过滤可以让管理员声称“外部的客户端无法访问内部网络上的Telnet服务”，至少不能访问使用熟知端口号的Telnet服务
 
@@ -26,11 +26,11 @@
 
 **位于两个防火墙之间的DMZ** 
 
-![image-20200510194040229](../assets/image-20200510194040229.png)
+![image-20200510194040229](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510194040229.png)
 
 **一个防火墙还可以为多个网段提供防火墙规则，如果防火墙或路由器有3个或更多的接口，可以将内部网络和DMZ分别连接在这些接口上，同时为每个接口应用不同的过滤规则** 
 
-![image-20200510194230360](../assets/image-20200510194230360.png)
+![image-20200510194230360](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510194230360.png)
 
 ### 11.1.3 防火墙规则
 
@@ -43,7 +43,7 @@
 
 **大多数SOHO防火墙允许用户通过名称或端口号来阻断服务** 
 
-![image-20200510194453216](../assets/image-20200510194453216.png)
+![image-20200510194453216](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510194453216.png)
 
 这些参数提供了大量选项，用户可以关闭所有来自或去往特定地址范围的流量，可以关闭来自特定地址的特定服务，例如Telnet或FTP，还可以关闭来自于所有地址的某项服务，处理规则可以是“接受“，”拒绝“或其他任何选项，有时，防火墙规则甚至可以应用特定的扩展或脚本，规则也可以是在出现故障时，向防火墙管理员发出警告页面或电子邮件，与仅仅通过端口号关闭或打开服务相比，这些参数的组合能够提供更大的灵活性
 
@@ -110,7 +110,7 @@
 
 **缓冲区溢出攻击使为程序输入保留的内存空间不足，导致相应的程序崩溃，运行异常或执行任意代码** 
 
-![image-20200510202041562](../assets/image-20200510202041562.png)
+![image-20200510202041562](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510202041562.png)
 
 ### 11.3.4 root访问
 
@@ -124,7 +124,7 @@
 
 典型案例dos攻击
 
-![image-20200510210026331](../assets/image-20200510210026331.png)
+![image-20200510210026331](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510210026331.png)
 
 ### 11.3.7 防范措施
 
@@ -175,7 +175,7 @@
 
 **对称加密过程** 
 
-![image-20200510214331551](../assets/image-20200510214331551.png)
+![image-20200510214331551](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510214331551.png)
 
 1. 创建一个发送方计算机和接收方计算机都知道的密钥
 2. 发送方计算机使用一个个预定的加密算法和上述密钥，加密要发送的数据
@@ -215,7 +215,7 @@
 
 **数字签名过程** 
 
-![image-20200510220535389](../assets/image-20200510220535389.png)
+![image-20200510220535389](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510220535389.png)
 
 1. 计算机B想要发送一个具有数字签名的文档给计算机A，计算机B根据验证文档内容所需的信息，创建一小段数据，换句话说，就是对文档中的一些位执行某种数学计算，以得到一个值，鉴别吗可能还包含其他可用来验证消息真实性的消息，例如一个时间戳值，或其他将把鉴别码与其附着的消息关联起来的参数
 2. 计算机B使用一个私有密钥加密鉴别吗（注意，这是上一小节中描述的公开密钥加密过程的逆向，在上一小节中，私有密钥解密数据），鉴别码然后被附于钥传输的文档，该文档再被发送给计算机A
@@ -229,7 +229,7 @@
 
 **利用数字签名进行身份验证** 
 
-![image-20200510222315884](../assets/image-20200510222315884.png)
+![image-20200510222315884](https://raw.githubusercontent.com/christopher-x/images/main/image-20200510222315884.png)
 
 一些大型公司也提供它们自己的证书服务，不同厂商的认证过程有所不同，下面概述一下该过程
 
@@ -250,13 +250,13 @@
 
    **TCP/IP栈和SSL** 
 
-   ![image-20200511151647436](../assets/image-20200511151647436.png)
+   ![image-20200511151647436](https://raw.githubusercontent.com/christopher-x/images/main/image-20200511151647436.png)
 
    仔细查看SSL层，可以发现它包含两个子层，SSL记录协议（Record Protocol）是访问TCP的一个标准库，在这个记录协议之上，是一组执行特定服务的SSL相关协议
 
    **SSL协议** 
 
-   ![image-20200511151831600](../assets/image-20200511151831600.png)
+   ![image-20200511151831600](https://raw.githubusercontent.com/christopher-x/images/main/image-20200511151831600.png)
 
    * SSL握手协议（Handshake Protocol）：用来访问TCP的基础协议
    * SSL更改密文规范协议（Change Cipher Spec Protocol）：支持对加密套件设置的更改
@@ -304,7 +304,7 @@
 
    **VPN通过公共网络提供专用隧道** 
 
-   ![image-20200511155251762](../assets/image-20200511155251762.png)
+   ![image-20200511155251762](https://raw.githubusercontent.com/christopher-x/images/main/image-20200511155251762.png)
 
    尽管VPN客户端和服务器之间发送的未加密数据包邮可能被截获，但是有用信息都在加密后的载荷中，没有必要的密钥，那个窃贼将无法解密它
 
@@ -324,7 +324,7 @@
 
    **Kerberos身份验证过程** 
 
-   ![image-20200511160054681](../assets/image-20200511160054681.png)
+   ![image-20200511160054681](https://raw.githubusercontent.com/christopher-x/images/main/image-20200511160054681.png)
 
    Kerberos身份验证过程如图所示，注意，这个过程嘉定KDC已经有一个共享的密钥可以用来与这里的客户端进行通信，还有一个共享的密钥可以用来与这里的服务器进行通信，这些密钥用来加密一个新的会话密钥，客户端和服务器将使用它进行相互通信，KDC用来为客户端和服务器加密数据的那两个单独密钥被称为长期密钥，长期密钥通常产生于KDC和另一台计算机共享的一个秘密，一般而言，客户端长期密钥产生于客户端和KDC都知道的用户登陆密码的一个哈希
 

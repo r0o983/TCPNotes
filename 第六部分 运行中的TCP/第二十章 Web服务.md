@@ -6,7 +6,7 @@ Web服务架构的理念是，Web浏览器、Web服务器和TCP/IP协议栈处�
 
 **Web服务程序设计模型** 
 
-![image-20200516164848304](../assets/image-20200516164848304.png)
+![image-20200516164848304](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516164848304.png)
 
 在前端，程序员可以利用预先存在的Web基础设施，处理数据传输，并通过客户端计算机上的Web浏览器应用程序提供用户界面，在后端，程序员依靠预先存在的数据存储系统（由一个SQL数据库提供），这样，程序员就可以专注于图的中间部分，而现成的Web服务平台组件可以更进一步简化程序设计任务
 
@@ -59,7 +59,7 @@ SOAP 消息的结构由一个可选的报头和消息主体组成，报头包含
 
 **SOAP消息从发送者传递到接收者可能会经过中间节点** 
 
-![image-20200516171903283](../assets/image-20200516171903283.png)
+![image-20200516171903283](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516171903283.png)
 
 ## 20.4 WSDL
 
@@ -109,7 +109,7 @@ POST 和 PUT 命令之间的区别值得我们进行思考，PUT 将替换整个
 
 **HTTP的PUT方法更新整个资源，而POST方法只提供更新所需要的信息，其中可能包括添加文本或修改现有的资源** 
 
-![image-20200516191547366](../assets/image-20200516191547366.png)
+![image-20200516191547366](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516191547366.png)
 
 尽管REST服务有时支持JSON和普通的HTML，但是传输到服务器的数据通常是XML格式的，理想情况下，从服务器返回的数据位于表述性表单中，该表单通常是HTML格式或WEB浏览器可以轻易处理的其他格式
 
@@ -125,7 +125,7 @@ REST系统中主要关注的是URI的结构，URI是分层次的，而且指向�
 
 **典型的Web交易场景** 
 
-![image-20200516192301841](../assets/image-20200516192301841.png)
+![image-20200516192301841](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516192301841.png)
 
 1. 一台 Web 服务器提供一个可以从 Web 访问的在线产品目录，一名用户通过 Internet从一个远程位置浏览这些产品信息
 2. 该用户决定购买一个产品，并单击了相应网页上的“购买此产品”链接

@@ -16,7 +16,7 @@
 
 **IPv6报头** 
 
-![image-20200512161720617](../assets/image-20200512161720617.png)
+![image-20200512161720617](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512161720617.png)
 
 IPv6的报头字段如下所示：
 
@@ -47,7 +47,7 @@ IPv6规范中定义了如下的扩展报头：
 
 **下一个报头字段** 
 
-![image-20200512162516278](../assets/image-20200512162516278.png)
+![image-20200512162516278](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512162516278.png)
 
 上面描述的这些扩展头中，只有跳跃选项报头和路由报头需要在传输路径中被中间节点处理，路由器不处理其他的扩展报头，只放行即可
 
@@ -67,7 +67,7 @@ IPv6规范中定义了如下的扩展报头：
 
 **路由报头** 
 
-![image-20200512164658712](../assets/image-20200512164658712.png)
+![image-20200512164658712](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512164658712.png)
 
 路由报头的数据字段如下所示：
 
@@ -95,7 +95,7 @@ IPv6规范中定义了如下的扩展报头：
 
 **RFC4291中的IPv6地址范围** 
 
-![image-20200512170316646](../assets/image-20200512170316646.png)
+![image-20200512170316646](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512170316646.png)
 
 要想记住128位的IPv6地址是几乎不可能的，在第四章讲到，32位的IPv4地址通常可以用点分十进制来表示，即每个字节的数据可以用最多3位十进制数来表示，记住用12个十进制数表示的字符串比记住用32个二进制数表示的二进制地址要容易一些，不过，这种应用于32位地址的方法对记忆128位的地址是没有效果的，实际上，也很少有用来简化IPv6地址记忆的方法
 
@@ -169,7 +169,7 @@ IPv6寻址系统提供了将现有的IPv4地址包括在自己的地址空间中
 
 **隧道代理操作隧道服务器，使得IPv6网络在IPv4网络中连接起来** 
 
-![image-20200512184725852](../assets/image-20200512184725852.png)
+![image-20200512184725852](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512184725852.png)
 
 有时，网络直接与隧道代理签订协议，以支持IPv6流量，有时候与ISP幕后的代理签订协议，然后将数据报发送给提供IPv6支持的终端用户网络
 
@@ -185,7 +185,7 @@ IPv6寻址系统提供了将现有的IPv4地址包括在自己的地址空间中
 
 **一台6to4中继服务器接收带有前缀2002::/16的IPv6数据包，提取出里面的IPv4地址，然后创建一个IPv4数据包，以在IPv4网络中传输** 
 
-![image-20200512200211709](../assets/image-20200512200211709.png)
+![image-20200512200211709](https://raw.githubusercontent.com/christopher-x/images/main/image-20200512200211709.png)
 
 ### 13.11.2 Teredo
 

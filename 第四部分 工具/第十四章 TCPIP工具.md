@@ -99,7 +99,7 @@ route命令也可以被用来手动添加，删除，和修改路由表中的条
 
   **route print命令显示路由表中的当前信息** （实际上显示的信息远比这个多，而且系统与系统之间显示也不同
 
-  ![image-20200513192330832](../assets/image-20200513192330832.png)
+  ![image-20200513192330832](https://raw.githubusercontent.com/christopher-x/images/main/image-20200513192330832.png)
 
 * route add：使用这个形式可以向路由表添加一个新的路由条目，例如，要想指定一个趣网5个路由器跳数之外的目的网络207.34.17.0的路由，而且首先会经过一台在本地网络上的IP地址为192.59.66.5和子网掩码为255.255.255.224的路由器，那么可以输入如下命令：route add 207.34.17.0 mask 255.255.255.224 192.59.66.5 metric 5
 
@@ -130,7 +130,7 @@ route命令也可以被用来手动添加，删除，和修改路由表中的条
 
 **netstat命令显示哥哥协议的统计信息** 
 
-![image-20200513193930155](../assets/image-20200513193930155.png)
+![image-20200513193930155](https://raw.githubusercontent.com/christopher-x/images/main/image-20200513193930155.png)
 
 ### 14.5.4 nbtstat
 
@@ -147,7 +147,7 @@ nbtstat工具用于查看在TCP/IP协议之上运行NetBIOS服务的统计信息
 
 **nbtstat命令以及响应** 
 
-![image-20200513194719098](../assets/image-20200513194719098.png)
+![image-20200513194719098](https://raw.githubusercontent.com/christopher-x/images/main/image-20200513194719098.png)
 
 ### 14.5.5 协议分析器
 

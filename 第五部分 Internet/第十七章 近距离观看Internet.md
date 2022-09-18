@@ -10,17 +10,17 @@ Internet是一个单一的实体，并不是因为它的物理连通性，而是
 
 **如今的Internet是由公共网络和私有网络组合而成的多层系统** 
 
-![image-20200516114320524](../assets/image-20200516114320524.png)
+![image-20200516114320524](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516114320524.png)
 
 ## 17.2 Internet上发生了什么？
 
 **在Internet上，计算机通常充当客户端或服务器** 
 
-![image-20200516114545498](../assets/image-20200516114545498.png)
+![image-20200516114545498](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516114545498.png)
 
 **Internet是一个从地球上任何位置均可以访问的浩瀚的服务之海** 
 
-![image-20200516115123776](../assets/image-20200516115123776.png)
+![image-20200516115123776](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516115123776.png)
 
 ## 17.3 URI和URL
 
@@ -28,7 +28,7 @@ Internet用户最熟悉的请求格式，就是**统一资源定位符（Uniform
 
 **URI模式** 
 
-![image-20200516120116447](../assets/image-20200516120116447.png)
+![image-20200516120116447](https://raw.githubusercontent.com/christopher-x/images/main/image-20200516120116447.png)
 
 ## 17.4 小结
 
